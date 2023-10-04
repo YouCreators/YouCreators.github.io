@@ -1,0 +1,23 @@
+{
+  "name": "youcreators",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "main": "node main.js",
+    "json": "node json.js",
+    "html": "html-minifier --collapse-whitespace --remove-comments -o build/index.html index.html",
+    "css": "esbuild css/index.css --bundle --minify --outfile=build/css/index.css",
+    "js": "esbuild js/index.js --bundle --minify --outfile=build/js/index.js",
+    "production": "npm run css && npm run js && npm run html && npm run main"
+  },
+  "author": "StudiosYouBedrock",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.19.4",
+    "fs-extra": "^11.1.1",
+    "html-minifier": "^4.0.0"
+  },
+  "dependencies": {
+    "jsonminify": "^0.4.2"
+  }
+}

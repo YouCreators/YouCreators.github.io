@@ -1,0 +1,78 @@
+.bt {
+  border: 0;
+  padding: 10px;
+  background-color: var(--background);
+  color: var(--text);
+  cursor: pointer;
+  transform: scale(1);
+  margin: 0 10px;
+}
+.bt__img {
+  position: relative;
+  width: 16px;
+  height: 16px;
+}
+.bt {
+  box-shadow: 2px 2px var(--border_bottom_right),
+    0 2px var(--border_bottom_right), 2px 0 var(--border_bottom_right),
+    -2px -2px var(--border_top_left), 0 -2px var(--border_top_left),
+    -2px 0 var(--border_top_left), /* corners */ 2px -2px var(--corners),
+    -2px 2px var(--corners), /* shadow */ -2px 6px var(--shadow),
+    2px 6px var(--shadow), /* border */-4px -4px var(--border_3),
+    4px -4px var(--border_3), -4px 8px var(--border_3), 4px 8px var(--border_3);
+}
+.bt:active {
+  transform: translateY(4px) scale(1);
+  box-shadow: 2px 2px var(--border_top_left), 0 2px var(--border_top_left),
+    2px 0 var(--border_top_left), -2px -2px var(--border_bottom_right),
+    0 -2px var(--border_bottom_right), -2px 0 var(--border_bottom_right),
+    /* corners */ 2px -2px var(--corners), -2px 2px var(--corners),
+    /* border */-4px -4px var(--border_3), 4px -4px var(--border_3),
+    -4px 4px var(--border_3), 4px 4px var(--border_3);
+}
+.bt_white {
+  --background: #d0d1d4;
+  --corners: #f4f4f5;
+  --border_top_left: #ecedee;
+  --border_bottom_right: #e3e3e5;
+  --border_3: #131313;
+  --shadow: #58585a;
+  --text: black;
+}
+.bt_gray {
+  --background: #212128;
+  --corners: #26262e;
+  --border_top_left: #3a3a45;
+  --border_bottom_right: #31313b;
+  --border_3: #131313;
+  --shadow: #19191e;
+  --text: white;
+}
+
+.bt_green {
+  --background: #358720;
+  --corners: #4ba634;
+  --border_top_left: #3f9f27;
+  --border_bottom_right: #3a9622;
+  --border_3: #131313;
+  --shadow: #033300;
+  --text: white;
+}
+.bt_blue {
+  --background: #122794;
+  --corners: #1d35ab;
+  --border_top_left: #1b36c0;
+  --border_bottom_right: #162ea7;
+  --border_3: #131313;
+  --shadow: #000c3b;
+  --text: white;
+}
+.bt_red {
+  --background: #941212;
+  --corners: #8f2323;
+  --border_top_left: #af2f2f;
+  --border_bottom_right: #a32020;
+  --border_3: #131313;
+  --shadow: #410000;
+  --text: white;
+}

@@ -1,1 +1,6 @@
-{"line":{"element":"div","class":["line"]}}
+{
+  "line": {
+    "element": "div",
+    "class": ["line"]
+  }
+}

@@ -1,1 +1,6 @@
-{"hed_pnel":{"element":"header","class":["hed_pnel"]}}
+{
+  "hed_pnel": {
+    "element": "header",
+    "class": ["hed_pnel"]
+  }
+}

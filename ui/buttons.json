@@ -1,1 +1,10 @@
-{"base":{"element":"button","class":["bt"]},"img":{"element":"img","class":["bt__img"]}}
+{
+  "base": {
+    "element": "button",
+    "class": ["bt"]
+  },
+  "img": {
+    "element": "img",
+    "class": ["bt__img"]
+  }
+}
