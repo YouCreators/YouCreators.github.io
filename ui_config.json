@@ -1,0 +1,1 @@
+{"ui_config":{"namespace":{"common":"ui/common.json","buttons":"ui/buttons.json","header":"ui/header.json","screen":"ui/screen.json","projects":"ui/projects.json"},"init":["screen.loading","screen.screen_content"]},"dom_config":{"css":[{"url":"css/index.css"}],"font":[{"name":"Mojangles","url":"assets/font/Mojangles.ttf"}],"script":[{"url":"js/index.js","module":true}]}}
